@@ -492,14 +492,14 @@
 
     .tag {
         font-size: 0.75rem;
-        background: rgba(0, 0, 0, 0.05);
+        background: rgba(255, 255, 255, 0.1);
         padding: 4px 10px;
         border-radius: 20px;
         color: var(--primary-accent);
     }
     
     [data-theme="light"] .tag {
-        background: rgba(0, 0, 0, 0.08);
+        background: rgba(0, 0, 0, 0.1);
     }
 
     .project-btn {
@@ -763,4 +763,5 @@
     @keyframes fadeout {
         from {bottom: 30px; opacity: 1;}
         to {bottom: 0; opacity: 0;}
+
     }
